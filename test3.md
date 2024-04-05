@@ -27,7 +27,7 @@ Selects and executes a command on a file or set of files. This command is useful
 ### Executes calc.exe since there is a match for notepad.exe in the c:\windows\System32 folder.
 
 ```cmd
-forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe
+forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe```
 
 
 markdown
